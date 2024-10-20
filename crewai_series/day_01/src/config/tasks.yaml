@@ -1,0 +1,13 @@
+joke_task:
+  description: >
+    To give me a funny joke to make me laugh.
+  expected_output: >
+    The new joke you came up with.
+  agent: joke_creator
+
+add_emojis_task:
+  description: >
+    To add emojis to text to make it more engaging.
+  expected_output: >
+    The new joke with emojis added.
+  agent: add_emojis
