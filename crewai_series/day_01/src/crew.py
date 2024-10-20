@@ -10,8 +10,10 @@ load_dotenv()
 class Day01Crew():
 	"""Day01 crew"""
 
-	agents_config = 'config/agents.yaml'
-	tasks_config = 'config/tasks.yaml'
+	# self.agents_config and self.tasks_config are automatically created by the @CrewBase decorator and don't need to be defined here
+	# but could be if the paths were not the default 
+	# agents_config = 'config/agents.yaml'
+	# tasks_config = 'config/tasks.yaml'
 
 	@agent
 	def joke_creator(self) -> Agent:
