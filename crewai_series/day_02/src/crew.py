@@ -11,9 +11,9 @@ class Day02Crew():
 	"""Day02 crew"""
 
 	# ollama_31_8b is set up for LMStudio using a llama3.1:8b model and setting the provider as openai because it is compatible 
-	# note the /v1 added to the base_url and had set the port in LMStudio to 11434
-	# ollama_31_8b = LLM(model="openai/llama3.1:8b", base_url="http://localhost:11434/v1")
+	# note the /v1 added to the base_url and had set the port in LMStudio to 11434	
 	# setting the provider as openai is per: https://docs.litellm.ai/docs/providers/openai_compatible
+	# ollama_31_8b = LLM(model="openai/llama3.1:8b", base_url="http://localhost:11434/v1")
 	
 	ollama_32_3b = LLM(model="ollama/llama3.2:3b", base_url="http://localhost:11434")
 	phi3 = LLM(model="ollama/phi3", base_url="http://localhost:11434")
